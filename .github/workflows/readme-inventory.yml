@@ -1,0 +1,75 @@
+name: README inventory
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-readme-inventory:
+    name: Check README Python inventory
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check that tracked Python files are listed in README
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from pathlib import Path
+          import subprocess
+          import sys
+
+          readme_path = Path("README.md")
+
+          if not readme_path.exists():
+              print("README.md not found.")
+              sys.exit(1)
+
+          readme = readme_path.read_text(encoding="utf-8")
+
+          result = subprocess.run(
+              ["git", "ls-files"],
+              check=True,
+              capture_output=True,
+              text=True,
+          )
+
+          python_files = sorted(
+              line.strip()
+              for line in result.stdout.splitlines()
+              if line.strip().endswith(".py")
+          )
+
+          basenames = Counter(Path(path).name for path in python_files)
+
+          missing = []
+
+          for path in python_files:
+              filename = Path(path).name
+
+              if path in readme:
+                  continue
+
+              if basenames[filename] == 1 and filename in readme:
+                  continue
+
+              missing.append(path)
+
+          if missing:
+              print("README.md is missing these tracked Python files:")
+              print()
+
+              for path in missing:
+                  print(f"- {path}")
+
+              print()
+              print("Add each missing file to the README inventory.")
+              print("If two files have the same filename, list the full relative path.")
+              sys.exit(1)
+
+          print("README.md lists every tracked Python file.")
+          PY

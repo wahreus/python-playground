@@ -8,16 +8,17 @@ A repo for storing Python code and tracking learning progress. All programs are 
 .
 ├── README.md
 ├── algorithms
-│   ├── binary_search.py               # interactive
-|   ├── bubble_sort.py                 # visual demo
-│   └── quicksort.py
+│   ├── binary_search.py
+|   ├── bubble_sort.py
+|   ├── quicksort.py
+│   └── selection_sort.py
 ├── asynchronous_programming
 │   ├── dependency_scheduler.py
 │   ├── taskgroup_error_handling.py
 │   └── worker_pipeline.py
 └── data_structures
-    ├── doubly_linked_list.py          # interactive
-    └── singly_linked_list.py          # interactive
+    ├── doubly_linked_list.py
+    └── singly_linked_list.py
 ```
 
 ### GitHub Actions

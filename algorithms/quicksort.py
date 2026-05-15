@@ -13,7 +13,7 @@ def _partition(numbers: list[int], low: int, high: int) -> int:
     pivot = numbers[high]
     i = low
     for j in range(low, high):
-        if numbers[j] <= pivot:
+        if numbers[j] < pivot:
             numbers[i], numbers[j] = numbers[j], numbers[i]
             i += 1
     numbers[i], numbers[high] = numbers[high], numbers[i]
@@ -22,8 +22,8 @@ def _partition(numbers: list[int], low: int, high: int) -> int:
 
 def main() -> None:
     numbers = [4, 2, 7, 1, 9, 6, 5, 8, 3]
-    print("Unsorted:", numbers)
-    print("Sorted:  ", quicksort(numbers))
+    print("Unsorted list:", numbers)
+    print("Sorted list:  ", quicksort(numbers))
 
 
 if __name__ == "__main__":

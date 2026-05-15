@@ -2,7 +2,7 @@
 
 A repo for storing Python code and tracking learning progress. All programs are designed to run as standalone programs, unless noted otherwise.
 
-### Current Inventory
+## Current Inventory
 
 ```text
 .
@@ -21,6 +21,6 @@ A repo for storing Python code and tracking learning progress. All programs are 
     └── singly_linked_list.py
 ```
 
-### GitHub Actions
+## GitHub Actions
 
 This repo uses GitHub Actions to check that every tracked `.py` file is listed in this README. The `main` branch is protected, so changes must pass this check before they can be merged.

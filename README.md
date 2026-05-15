@@ -9,11 +9,12 @@ A repo for storing Python code and tracking learning progress. All programs are 
 ├── README.md
 ├── algorithms
 │   ├── binary_search.py               # interactive
-│   └── bubble_sort.py                 # animated demo
+|   ├── bubble_sort.py                 # visual demo
+│   └── quicksort.py
 ├── asynchronous_programming
-│   ├── dependency_scheduler.py        # input-driven
-│   ├── taskgroup_error_handling.py    # input-driven
-│   └── worker_pipeline.py             # input-driven
+│   ├── dependency_scheduler.py
+│   ├── taskgroup_error_handling.py
+│   └── worker_pipeline.py
 └── data_structures
     ├── doubly_linked_list.py          # interactive
     └── singly_linked_list.py          # interactive

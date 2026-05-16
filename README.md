@@ -8,8 +8,10 @@ A repo for storing Python code and tracking learning progress. All programs are 
 .
 ├── README.md
 ├── algorithms
+│   ├── bfs.py
 │   ├── binary_search.py
 |   ├── bubble_sort.py
+|   ├── dfs.py
 |   ├── quicksort.py
 │   └── selection_sort.py
 ├── asynchronous_programming

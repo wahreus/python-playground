@@ -12,6 +12,7 @@ A repo for storing Python code and tracking learning progress. All programs are 
 │   ├── binary_search.py
 │   ├── bubble_sort.py
 │   ├── dfs.py
+│   ├── merge_sort.py
 │   ├── quicksort.py
 │   └── selection_sort.py
 ├── asynchronous_programming

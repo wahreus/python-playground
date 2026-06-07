@@ -22,6 +22,7 @@ A repo for storing Python code and tracking learning progress. All programs are 
 │   ├── taskgroup_error_handling.py
 │   └── worker_pipeline.py
 └── data_structures
+    ├── doubly_linked_list-interactive.py
     ├── doubly_linked_list.py
     └── singly_linked_list.py
 ```

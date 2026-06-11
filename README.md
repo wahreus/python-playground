@@ -1,6 +1,6 @@
 # 🐍 Python Programming
 
-A repo for storing Python code and tracking learning progress. All programs are designed to run as standalone programs, unless noted otherwise.
+A repo for storing Python code and tracking learning progress.
 
 ## Current Inventory
 

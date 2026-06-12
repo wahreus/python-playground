@@ -37,7 +37,7 @@ A repo for storing Python code and tracking learning progress.
 └── worker_pipeline.py
 ```
 
-## Data Structures
+## Data structures
 
 ```text
 .
@@ -45,4 +45,16 @@ A repo for storing Python code and tracking learning progress.
 ├── doubly_linked_list.py
 ├── singly_linked_list-interactive.py
 └── singly_linked_list.py
+```
+
+## Kattis solutions
+
+```text
+.
+└── nus-challenges
+    ├── 1-thelastproblem.py
+    ├── 2-bracketmatching.py
+    ├── 3-brillianceofwings.py
+    ├── 4-knightjump.py
+    └── 5-nicknames.py
 ```

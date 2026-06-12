@@ -15,15 +15,17 @@ A repo for storing Python code and tracking learning progress.
 
 ```text
 .
-├── bfs.py
-├── binary_search.py
-├── bubble_sort.py
-├── dfs.py
-├── dijkstra.py
-├── heap_sort.py
-├── merge_sort.py
-├── quick_sort.py
-└── selection_sort.py
+├── search
+│   ├── bfs.py
+│   ├── binary_search.py
+│   ├── dfs.py
+│   └── dijkstra.py
+└── sort
+    ├── bubble_sort.py
+    ├── heap_sort.py
+    ├── merge_sort.py
+    ├── quick_sort.py
+    └── selection_sort.py
 ```
 
 ## Asyncio

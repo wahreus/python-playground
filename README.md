@@ -8,7 +8,8 @@ A repo for storing Python code and tracking learning progress.
 .
 ├── algorithms/
 ├── asyncio/
-└── data_structures/
+├── data_structures/
+└── kattis_solutions/
 ```
 
 ## Algorithms

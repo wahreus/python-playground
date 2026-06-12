@@ -17,7 +17,7 @@ A repo for storing Python code and tracking learning progress.
 │   ├── merge_sort.py
 │   ├── quicksort.py
 │   └── selection_sort.py
-├── asynchronous_programming
+├── asyncio
 │   ├── dependency_scheduler.py
 │   ├── taskgroup_error_handling.py
 │   └── worker_pipeline.py

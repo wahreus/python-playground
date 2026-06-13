@@ -57,5 +57,7 @@ A repo for storing Python code and tracking learning progress.
     ├── 2-bracketmatching.py
     ├── 3-brillianceofwings.py
     ├── 4-knightjump.py
-    └── 5-nicknames.py
+    ├── 5-nicknames.py
+    ├── 6-fastestavailableroute.py
+    └── 7-continuousmedian.py
 ```

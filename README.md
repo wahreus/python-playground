@@ -59,5 +59,6 @@ A repo for storing Python code and tracking learning progress.
     ├── 4-knightjump.py
     ├── 5-nicknames.py
     ├── 6-fastestavailableroute.py
-    └── 7-continuousmedian.py
+    ├── 7-continuousmedian.py
+    └── 8-universityzoning.py
 ```

@@ -60,5 +60,6 @@ A repo for storing Python code and tracking learning progress.
     ├── 5-nicknames.py
     ├── 6-fastestavailableroute.py
     ├── 7-continuousmedian.py
-    └── 8-universityzoning.py
+    ├── 8-universityzoning.py
+    └── 9-justforsidekicks.py
 ```

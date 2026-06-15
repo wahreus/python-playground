@@ -34,4 +34,5 @@ def main() -> None:
     steps_per_zone.sort()
     print(sum(steps_per_zone[:G]))
 
-main()
+if __name__ == "__main__":
+    main()

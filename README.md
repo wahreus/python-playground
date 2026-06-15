@@ -55,6 +55,7 @@ A repo for storing Python code and tracking learning progress.
 .
 └── nus-challenges
     ├── 1-thelastproblem.py
+    ├── 10-teque.py
     ├── 2-bracketmatching.py
     ├── 3-brillianceofwings.py
     ├── 4-knightjump.py

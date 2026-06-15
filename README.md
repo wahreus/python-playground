@@ -54,14 +54,14 @@ A repo for storing Python code and tracking learning progress.
 ```text
 .
 └── nus-challenges
-    ├── 1-thelastproblem.py
-    ├── 10-teque.py
-    ├── 2-bracketmatching.py
-    ├── 3-brillianceofwings.py
-    ├── 4-knightjump.py
-    ├── 5-nicknames.py
-    ├── 6-fastestavailableroute.py
-    ├── 7-continuousmedian.py
-    ├── 8-universityzoning.py
-    └── 9-justforsidekicks.py
+    ├── 01-thelastproblem.py
+    ├── 02-bracketmatching.py
+    ├── 03-brillianceofwings.py
+    ├── 04-knightjump.py
+    ├── 05-nicknames.py
+    ├── 06-fastestavailableroute.py
+    ├── 07-continuousmedian.py
+    ├── 08-universityzoning.py
+    ├── 09-justforsidekicks.py
+    └── 10-teque.py
 ```

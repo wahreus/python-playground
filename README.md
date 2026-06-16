@@ -63,5 +63,6 @@ A repo for storing Python code and tracking learning progress.
     ├── 07-continuousmedian.py
     ├── 08-universityzoning.py
     ├── 09-justforsidekicks.py
-    └── 10-teque.py
+    ├── 10-teque.py
+    └── 11-goldmerchant.py
 ```

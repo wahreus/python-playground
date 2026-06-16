@@ -58,12 +58,12 @@ A repo for storing Python code and tracking learning progress.
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py
     ├── 03-brillianceofwings.py
-    ├── 04-knightjump.py
+    ├── 04-knightjump.py               # BFS algorithm
     ├── 05-nicknames.py
     ├── 06-fastestavailableroute.py
     ├── 07-continuousmedian.py
     ├── 08-universityzoning.py
-    ├── 09-justforsidekicks.py
+    ├── 09-justforsidekicks.py         # Fenwick Tree data structure
     ├── 10-teque.py
-    └── 11-goldmerchant.py
+    └── 11-goldmerchant.py             # Union-Find data structure
 ```

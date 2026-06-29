@@ -57,7 +57,8 @@ A repo for storing Python code and tracking learning progress.
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py
-│   └── 03-busnumbers.py
+│   ├── 03-busnumbers.py
+│   └── 04-color.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py

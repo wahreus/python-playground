@@ -59,7 +59,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 02-pauleigon.py
 │   ├── 03-busnumbers.py
 │   ├── 04-color.py
-│   └── 05-justaminute.py
+│   ├── 05-justaminute.py
+│   └── 06-pikemaneasy.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py

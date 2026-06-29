@@ -62,7 +62,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 04-color.py
 │   ├── 05-justaminute.py
 │   ├── 06-pikemaneasy.py
-│   └── 07-reactivity.py               # Kahn's algorithm
+│   ├── 07-reactivity.py               # Kahn's algorithm
+│   └── 08-teacherevaluation.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py

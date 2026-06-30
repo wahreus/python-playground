@@ -56,7 +56,8 @@ A repo for storing Python code and tracking learning progress.
 ```text
 .
 ├── baylor-competitive-learning
-│   └── 01-weakvertices.py
+│   ├── 01-weakvertices.py
+│   └── 02-detaileddifferences.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

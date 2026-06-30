@@ -66,7 +66,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 08-teacherevaluation.py
 │   ├── 09-santaklas.py
 │   ├── 10-emergency.py
-│   └── 11-paintbuckets.py
+│   ├── 11-paintbuckets.py
+│   └── 12-batteries.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py

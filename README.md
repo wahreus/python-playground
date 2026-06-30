@@ -65,7 +65,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 07-reactivity.py               # Kahn's algorithm
 │   ├── 08-teacherevaluation.py
 │   ├── 09-santaklas.py
-│   └── 10-emergency.py
+│   ├── 10-emergency.py
+│   └── 11-paintbuckets.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py

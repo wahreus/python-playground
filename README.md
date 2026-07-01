@@ -58,7 +58,8 @@ A repo for storing Python code and tracking learning progress.
 ├── baylor-competitive-learning
 │   ├── 01-weakvertices.py
 │   ├── 02-detaileddifferences.py
-│   └── 03-sortofsorting.py
+│   ├── 03-sortofsorting.py
+│   └── 04-estimatingtheareaofacircle.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

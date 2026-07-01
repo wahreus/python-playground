@@ -60,7 +60,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 02-detaileddifferences.py
 │   ├── 03-sortofsorting.py
 │   ├── 04-estimatingtheareaofacircle.py
-│   └── 05-compoundwords.py
+│   ├── 05-compoundwords.py
+│   └── 06-pervasiveheartmonitor.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

@@ -62,7 +62,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 04-estimatingtheareaofacircle.py
 │   ├── 05-compoundwords.py
 │   ├── 06-pervasiveheartmonitor.py
-│   └── 07-synchronizinglists.py
+│   ├── 07-synchronizinglists.py
+│   └── 08-securedoors.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

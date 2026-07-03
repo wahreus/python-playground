@@ -64,7 +64,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 06-pervasiveheartmonitor.py
 │   ├── 07-synchronizinglists.py
 │   ├── 08-securedoors.py
-│   └── 09-halfacookie.py
+│   ├── 09-halfacookie.py
+│   └── 10-hidingplaces.py                  # BFS algorithm    
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py
@@ -72,7 +73,7 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 04-color.py
 │   ├── 05-justaminute.py
 │   ├── 06-pikemaneasy.py
-│   ├── 07-reactivity.py               # Kahn's algorithm
+│   ├── 07-reactivity.py                    # Kahn's algorithm
 │   ├── 08-teacherevaluation.py
 │   ├── 09-santaklas.py
 │   ├── 10-emergency.py
@@ -83,12 +84,12 @@ A repo for storing Python code and tracking learning progress.
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py
     ├── 03-brillianceofwings.py
-    ├── 04-knightjump.py               # BFS algorithm
+    ├── 04-knightjump.py                    # BFS algorithm
     ├── 05-nicknames.py
     ├── 06-fastestavailableroute.py
     ├── 07-continuousmedian.py
     ├── 08-universityzoning.py
-    ├── 09-justforsidekicks.py         # Fenwick Tree data structure
+    ├── 09-justforsidekicks.py              # Fenwick Tree data structure
     ├── 10-teque.py
-    └── 11-goldmerchant.py             # Union-Find data structure
+    └── 11-goldmerchant.py                  # Union-Find data structure
 ```

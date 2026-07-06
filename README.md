@@ -68,7 +68,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 10-halfacookie.py
 │   ├── 11-hidingplaces.py                  # BFS algorithm
 │   ├── 12-musicyourway.py
-│   └── 13-boundingrobots.py
+│   ├── 13-boundingrobots.py
+│   └── 14-sidewayssorting.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

@@ -70,7 +70,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 12-musicyourway.py
 │   ├── 13-boundingrobots.py
 │   ├── 14-sidewayssorting.py
-│   └── 15-vacuumba.py
+│   ├── 15-vacuumba.py
+│   └── 16-baconeggsandspam.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

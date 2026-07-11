@@ -72,7 +72,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 14-sidewayssorting.py
 │   ├── 15-vacuumba.py
 │   ├── 16-baconeggsandspam.py
-│   └── 17-reachableroads.py                # DFS algorithm
+│   ├── 17-reachableroads.py                # DFS algorithm
+│   └── 18-printingcosts.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

@@ -75,7 +75,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 17-reachableroads.py                # DFS algorithm
 │   ├── 18-printingcosts.py
 │   ├── 19-permutedarithmeticsequence.py
-│   └── 20-metaprogramming.py
+│   ├── 20-metaprogramming.py
+│   └── 21-countingtriangles.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

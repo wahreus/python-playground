@@ -77,7 +77,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 19-permutedarithmeticsequence.py
 │   ├── 20-metaprogramming.py
 │   ├── 21-countingtriangles.py
-│   └── 22-differentdistances.py
+│   ├── 22-differentdistances.py
+│   └── 23-convexpolygonarea.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

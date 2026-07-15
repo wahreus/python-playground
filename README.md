@@ -21,7 +21,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── binary_search.py
 │   ├── dfs.py
 │   ├── dijkstra.py
-│   └── kahns_algorithm.py
+│   ├── kahns_algorithm.py
+│   └── prims_algorithm.py
 └── sort
     ├── bubble_sort.py
     ├── heap_sort.py

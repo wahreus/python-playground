@@ -79,7 +79,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 21-countingtriangles.py
 │   ├── 22-differentdistances.py
 │   ├── 23-convexpolygonarea.py
-│   └── 24-functionalfun.py
+│   ├── 24-functionalfun.py
+│   └── 25-islandhopping.py                 # Prim's algorithm
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

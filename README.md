@@ -84,7 +84,8 @@ A repo for storing Python code and tracking learning progress.
 │   └── 25-islandhopping.py                 # Prim's algorithm
 │   ├── 26-sumoftheothers.py
 │   ├── 27-busyschedule.py
-│   └── 28-permutationencryption.py
+│   ├── 28-permutationencryption.py
+│   └── 29-iboard.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

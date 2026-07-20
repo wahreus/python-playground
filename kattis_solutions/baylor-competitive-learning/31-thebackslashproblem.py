@@ -1,6 +1,6 @@
 """
 Problem link: https://open.kattis.com/problems/thebackslashproblem
-Problem source: Greg Hamerly / Baylor Competitive Learning
+Problem source: David Sturgill / Baylor Competitive Learning
 """
 
 import sys

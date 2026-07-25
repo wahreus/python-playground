@@ -89,7 +89,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 30-musicalnotation.py
 │   ├── 31-thebackslashproblem.py
 │   ├── 32-savingdaylight.py
-│   └── 33-bitbybit.py
+│   ├── 33-bitbybit.py
+│   └── 34-variablearithmetic.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

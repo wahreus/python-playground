@@ -91,7 +91,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 32-savingdaylight.py
 │   ├── 33-bitbybit.py
 │   ├── 34-variablearithmetic.py
-│   └── 35-enlarginghashtables.py
+│   ├── 35-enlarginghashtables.py
+│   └── 36-parsinghex.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

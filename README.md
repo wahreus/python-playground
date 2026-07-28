@@ -83,7 +83,7 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 22-differentdistances.py
 │   ├── 23-convexpolygonarea.py
 │   ├── 24-functionalfun.py
-│   └── 25-islandhopping.py                 # Prim's algorithm
+│   ├── 25-islandhopping.py                 # Prim's algorithm
 │   ├── 26-sumoftheothers.py
 │   ├── 27-busyschedule.py
 │   ├── 28-permutationencryption.py
@@ -96,7 +96,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 35-enlarginghashtables.py
 │   ├── 36-parsinghex.py
 │   ├── 37-robotprotection.py               # Convex hull area algorithm
-│   └── 38-almostperfect.py
+│   ├── 38-almostperfect.py
+│   └── 39-pachydermpeanutpacking.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

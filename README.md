@@ -16,6 +16,8 @@ A repo for storing Python code and tracking learning progress.
 
 ```text
 .
+├── geometry
+│   └── convex_hull.py
 ├── search
 │   ├── bfs.py
 │   ├── binary_search.py

@@ -92,7 +92,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 33-bitbybit.py
 │   ├── 34-variablearithmetic.py
 │   ├── 35-enlarginghashtables.py
-│   └── 36-parsinghex.py
+│   ├── 36-parsinghex.py
+│   └── 37-robotprotection.py               # Convex Hull algorithm
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

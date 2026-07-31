@@ -99,7 +99,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 38-almostperfect.py
 │   ├── 39-pachydermpeanutpacking.py
 │   ├── 40-engineeringenglish.py
-│   └── 41-notamused.py
+│   ├── 41-notamused.py
+│   └── 42-fundamentalneighbors.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

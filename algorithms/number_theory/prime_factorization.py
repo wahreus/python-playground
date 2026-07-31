@@ -1,8 +1,8 @@
 import math
 
-def prime_factorization(number: int) -> dict[int, int]:
-    primes = _generate_primes(math.isqrt(number))
-    factors = {}
+
+def prime_factorization(number: int, primes: list[int]) -> dict[int, int]:
+    factors: dict[int, int] = {}
     for prime in primes:
         if prime * prime > number:
             break
@@ -16,7 +16,9 @@ def prime_factorization(number: int) -> dict[int, int]:
         factors[number] = 1
     return factors
 
-def _generate_primes(limit: int) -> list[int]:
+
+def generate_primes(number: int) -> list[int]:
+    limit = math.isqrt(number)
     if limit < 2:
         return []
     is_prime = [True] * (limit + 1)
@@ -28,9 +30,11 @@ def _generate_primes(limit: int) -> list[int]:
                 is_prime[multiple] = False
     return [number for number in range(2, limit + 1) if is_prime[number]]
 
+
 def main() -> None:
-    number = 360
-    factors = prime_factorization(number)
+    number = 120
+    primes = generate_primes(number)
+    factors = prime_factorization(number, primes)
     factorization = " * ".join(f"{prime}^{exponent}"for prime, exponent in factors.items())
     print(f"Prime factorization of {number}:\n{factorization}")
 

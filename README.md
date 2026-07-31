@@ -18,6 +18,8 @@ A repo for storing Python code and tracking learning progress.
 .
 ├── geometry
 │   └── convex_hull_area.py
+├── number_theory
+│   └── prime_factorization.py
 ├── search
 │   ├── bfs.py
 │   ├── binary_search.py

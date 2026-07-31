@@ -6,20 +6,8 @@ Problem source: Greg Hamerly / Baylor Competitive Learning
 import math
 import sys
 
-def generate_primes(limit: int) -> list[int]:
-    is_prime = [True] * (limit + 1)
-    if limit >= 0:
-        is_prime[0] = False
-    if limit >= 1:
-        is_prime[1] = False
-    for number in range(2, math.isqrt(limit) + 1):
-        if is_prime[number]:
-            for multiple in range(number * number, limit + 1, number):
-                is_prime[multiple] = False
-    return [number for number in range(2, limit + 1) if is_prime[number]]
-
 def prime_factorization(number: int, primes: list[int]) -> dict[int, int]:
-    factors = {}
+    factors: dict[int, int] = {}
     for prime in primes:
         if prime * prime > number:
             break
@@ -33,6 +21,19 @@ def prime_factorization(number: int, primes: list[int]) -> dict[int, int]:
         factors[number] = 1
     return factors
 
+def generate_primes(number: int) -> list[int]:
+    limit = math.isqrt(number)
+    if limit < 2:
+        return []
+    is_prime = [True] * (limit + 1)
+    is_prime[0] = False
+    is_prime[1] = False
+    for number in range(2, math.isqrt(limit) + 1):
+        if is_prime[number]:
+            for multiple in range(number * number, limit + 1, number):
+                is_prime[multiple] = False
+    return [number for number in range(2, limit + 1) if is_prime[number]]
+
 def fundamental_neighbour(number: int, primes: list[int]) -> int:
     factors = prime_factorization(number, primes)
     neighbour = 1
@@ -44,8 +45,7 @@ def main() -> None:
     numbers = list(map(int, sys.stdin.read().split()))
     if not numbers:
         return
-    prime_limit = math.isqrt(max(numbers))
-    primes = generate_primes(prime_limit)
+    primes = generate_primes(max(numbers))
     for number in numbers:
         neighbour = fundamental_neighbour(number, primes)
         print(number, neighbour)

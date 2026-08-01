@@ -102,7 +102,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 39-pachydermpeanutpacking.py
 │   ├── 40-engineeringenglish.py
 │   ├── 41-notamused.py
-│   └── 42-fundamentalneighbors.py          # Prime factorization algorithm
+│   ├── 42-fundamentalneighbors.py          # Prime factorization algorithm
+│   └── 43-cursethedarkness.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

@@ -104,7 +104,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 41-notamused.py
 │   ├── 42-fundamentalneighbors.py          # Prime factorization algorithm
 │   ├── 43-cursethedarkness.py
-│   └── 44-10kindsofpeople.py               # Union-Find data structure
+│   ├── 44-10kindsofpeople.py               # Union-Find data structure
+│   └── 45-increasingsubsequence.py
 ├── kth-training
 │   ├── 01-carrots.py
 │   ├── 02-pauleigon.py

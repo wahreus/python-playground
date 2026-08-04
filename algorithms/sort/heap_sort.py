@@ -7,7 +7,6 @@ def heap_sort(numbers: list[int]) -> list[int]:
         heapify(numbers, i, 0)
     return numbers
 
-
 def heapify(numbers: list[int], heap_size: int, root_index: int) -> None:
     largest_index = root_index
     left_index = 2 * root_index + 1
@@ -20,12 +19,10 @@ def heapify(numbers: list[int], heap_size: int, root_index: int) -> None:
         numbers[root_index], numbers[largest_index] = numbers[largest_index], numbers[root_index]
         heapify(numbers, heap_size, largest_index)
 
-
 def main() -> None:
     numbers = [4, 2, 7, 1, 9, 6, 5, 8, 3]
     print("Unsorted list:", numbers)
     print("Sorted list:  ", heap_sort(numbers))
-
 
 if __name__ == "__main__":
     main()

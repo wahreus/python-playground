@@ -1,6 +1,5 @@
 import heapq
 
-
 def dijkstra(graph: dict[str, list[tuple[str, int]]], start: str) -> dict[str, int]:
     distances = {start: 0}
     queue = [(0, start)]
@@ -17,17 +16,15 @@ def dijkstra(graph: dict[str, list[tuple[str, int]]], start: str) -> dict[str, i
                 heapq.heappush(queue, (new_distance, child))
     return distances
 
-
 def main() -> None:
     graph = {
-            "(A)": [("(B)", 4), ("(C)", 2)],
-            "(B)": [("(C)", 5), ("(D)", 10)],
-            "(C)": [("(E)", 3)],
-            "(D)": [],
-            "(E)": [("(D)", 4)],
-            }
+             "(A)": [("(B)", 4), ("(C)", 2)],
+             "(B)": [("(C)", 5), ("(D)", 10)],
+             "(C)": [("(E)", 3)],
+             "(D)": [],
+             "(E)": [("(D)", 4)],
+             }
     start = "(A)"
-
     distances = dijkstra(graph, start)
     print(f"Shortest distances from {start}:")
     for node in graph:
@@ -35,7 +32,6 @@ def main() -> None:
             print(f"- {node}: {distances[node]}")
         else:
             print(f"- {node}: unreachable")
-
 
 if __name__ == "__main__":
     main()

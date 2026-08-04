@@ -9,12 +9,10 @@ def bubble_sort(numbers: list[int]) -> None:
                 swapped = True
     return numbers
 
-
 def main() -> None:
     numbers = [4, 2, 7, 1, 9, 6, 5, 8, 3]
     print("Unsorted list:", numbers)
     print("Sorted list:  ", bubble_sort(numbers))
-
 
 if __name__ == "__main__":
     main()

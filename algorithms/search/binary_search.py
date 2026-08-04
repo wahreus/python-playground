@@ -11,7 +11,6 @@ def binary_search(numbers: list[int], target: int) -> int | None:
             right = middle - 1
     return None
 
-
 def main() -> None:
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     target = 7
@@ -21,8 +20,7 @@ def main() -> None:
     if found is not None:
         print(f"- Item {target} was found at index {found}.")
     else:
-        print(f"- Item {target} was not found.")   
-
+        print(f"- Item {target} was not found.")
 
 if __name__ == "__main__":
     main()

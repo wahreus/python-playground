@@ -6,7 +6,6 @@ def merge_sort(numbers):
     right = merge_sort(numbers[midpoint:])
     return merge(left, right)
 
-
 def merge(left, right):
     merged = []
     i = 0
@@ -22,12 +21,10 @@ def merge(left, right):
     merged.extend(right[j:])
     return merged
 
-
 def main() -> None:
     numbers = [4, 2, 7, 1, 9, 6, 5, 8, 3]
     print("Unsorted list:", numbers)
     print("Sorted list:  ", merge_sort(numbers))
-
 
 if __name__ == "__main__":
     main()

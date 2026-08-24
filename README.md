@@ -120,7 +120,8 @@ A repo for storing Python code and tracking learning progress.
 │   ├── 11-paintbuckets.py
 │   ├── 12-batteries.py
 │   ├── 13-tomography.py
-│   └── 14-fruitbaskets.py
+│   ├── 14-fruitbaskets.py
+│   └── 15-dividingsequence.py
 └── nus-challenges
     ├── 01-thelastproblem.py
     ├── 02-bracketmatching.py
